@@ -1,0 +1,2 @@
+gem 'razorpay'
+gem 'pry'
