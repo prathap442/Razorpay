@@ -1,7 +1,7 @@
 require 'razorpay'
 require 'pry'
 # To setup razorpay we require apikey and secret which we setthem up here
-c = Razorpay.setup('rzp_test_U5Ix5AmFWGghQc','y3MxlsC8vOz5FTp4ml6DtIwr')
+c = Razorpay.setup('rzp_test_U5Ix_testskfk$5AmFWGghQc','53sfsafsafsfy3MxlsC8vOz5FTp4ml6DtIwr')
 headers = {"Fascino" => "Cascino"}# we can add additonal request headers to the apis by using this
 receipt_value = Random.rand(4567)
 order = Razorpay::Order.create(amount: 5000, currency: 'INR', receipt: "#{receipt_value}_test")
